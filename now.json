@@ -7,6 +7,6 @@
     "routes": [
         { "src": "/", "dest": "/home/index.js" },
         { "src": "/projects", "dest": "/projects/index.js" },
-        { "src": "/(.+)", "dest": "$1" }
+        { "src": "/(.+)", "dest": "/$1" }
     ]
 }

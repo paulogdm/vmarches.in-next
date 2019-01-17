@@ -6,6 +6,7 @@
   "scripts": {
     "analyze": "BUNDLE_ANALYZE=both next build",
     "build": "next build",
+    "now-build": "next build",
     "dev": "micro-dev --watch index.js",
     "lint": "eslint .",
     "start": "NODE_ENV=production micro"
@@ -26,7 +27,7 @@
     "compression": "^1.7.3",
     "micro": "^9.3.3",
     "micro-route": "^2.5.0",
-    "next": "^7.0.2",
+    "next": "^8.0.0-canary.6",
     "prop-types": "^15.6.2",
     "react": "^16.8.0-alpha.0",
     "react-dom": "^16.8.0-alpha.0",
